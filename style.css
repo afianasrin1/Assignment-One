@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .header {
   width: 100%;
@@ -41,7 +40,7 @@ body {
 .donet-amount-section {
   margin-bottom: 60px;
   text-align: center;
-  display: flex;
+  display: block;
 }
 .amount-heading h1 {
   font-size: 60px;
@@ -69,6 +68,75 @@ body {
   color: rgba(46, 39, 39, 0.603);
   font-weight: 600;
   padding: 15px 10px;
+  text-decoration: none;
 }
-.active-donet-box-amount {
+#active-donate {
+  border: 2px solid rgb(204, 173, 163);
+  background-color: rgb(238, 238, 238);
+}
+#active-donate-a {
+  color: rgb(182, 129, 31);
+  font-weight: 600;
+}
+.donate-input {
+  text-align: center;
+}
+
+.donate-input-item {
+  width: 500px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(228, 222, 222, 0.795);
+  outline: none;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.donate-planning {
+  margin-bottom: 60px;
+  display: block;
+}
+
+.planning-haeder h1 {
+  font-size: 60px;
+  color: black;
+  padding-top: 80px;
+}
+.planning-haeder p {
+  font-size: 30px;
+  color: rgb(75, 73, 73);
+}
+.donet-planning-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.planning-card {
+  width: 400px;
+  height: 450px;
+  padding: 40px 0 30px 20px;
+  background: rgb(240, 237, 238);
+  margin: 0 10px;
+  border-radius: 5px;
+}
+#planning-card-active {
+  background-color: rgb(240, 230, 185);
+}
+.planning-card h1 {
+  font-size: 40px;
+  color: black;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.planning-card p {
+  font-size: 25px;
+  color: rgb(75, 73, 73);
+  padding-right: 30px;
+}
+.planning-card img {
+  width: 20%;
+  padding-bottom: 30px;
 }
