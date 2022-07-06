@@ -111,7 +111,6 @@ body {
 }
 .donet-planning-card {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-bottom: 100px;
 }
@@ -189,7 +188,7 @@ body {
   cursor: pointer;
 }
 .help-section {
-  display: block;
+  display: inline;
 }
 .help-section-conainer {
   margin-bottom: 100px;
