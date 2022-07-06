@@ -21,12 +21,13 @@ body {
 .banner h1 {
   font-size: 100px;
   color: #fff;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .banner p {
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
+  padding-bottom: 60px;
 }
 .button {
   color: white;
@@ -36,4 +37,38 @@ body {
   background: linear-gradient(60deg, lightsalmon, tomato);
   padding: 10px 40px;
   border-radius: 5px;
+}
+.donet-amount-section {
+  margin-bottom: 60px;
+  text-align: center;
+  display: flex;
+}
+.amount-heading h1 {
+  font-size: 60px;
+  color: black;
+  padding-top: 80px;
+}
+.amount-heading p {
+  font-size: 30px;
+  color: rgb(75, 73, 73);
+}
+.donate-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donate-box-amount {
+  padding: 25px 15px;
+  background: rgba(187, 182, 182, 0.356);
+  margin: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.donate-box-amount a {
+  color: rgba(46, 39, 39, 0.603);
+  font-weight: 600;
+  padding: 15px 10px;
+}
+.active-donet-box-amount {
 }
