@@ -97,6 +97,7 @@ body {
 .donate-planning {
   margin-bottom: 60px;
   display: block;
+  text-align: center;
 }
 
 .planning-haeder h1 {
@@ -139,4 +140,71 @@ body {
 .planning-card img {
   width: 20%;
   padding-bottom: 30px;
+}
+.update-subscribe {
+  margin-bottom: 60px;
+  text-align: center;
+  display: block;
+}
+
+.update-haeder h1 {
+  font-size: 60px;
+  color: black;
+  padding-top: 80px;
+}
+.update-haeder p {
+  font-size: 30px;
+  color: rgb(75, 73, 73);
+}
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.subscribe-content {
+  background: rgb(247, 238, 217);
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  border: none;
+}
+
+.subscribe-button {
+  outline: none;
+  height: 40px;
+  padding: 0 30px;
+  background-color: rgb(175, 99, 36);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer {
+  height: 200px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content h1 {
+  color: crimson;
+  font-style: italic;
+  padding-bottom: 30px;
+  font-family: "Satisfy", cursive;
+}
+.footer-content h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  color: rgba(236, 218, 218, 0.63);
 }
