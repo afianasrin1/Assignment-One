@@ -188,6 +188,37 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
+.help-section {
+  display: block;
+}
+.help-conainer {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.help-box {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 6px -2px,
+    rgb(0 0 0 / 30%) 0px 3px 4px -3px;
+}
+.help-box-2 {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(235, 223, 223);
+  padding: 15px 15px 0 15px;
+  text-align: left;
+}
+
+.help-button {
+  padding: 10px 20px;
+  background: orange;
+  color: #fff;
+  text-decoration: none;
+}
 
 .footer {
   height: 200px;
