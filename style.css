@@ -146,11 +146,9 @@ body {
 }
 
 .help-section {
-  box-sizing: border-box;
   display: block;
-  height: 1400px;
-  height: 900x;
   align-items: center;
+  margin-left: 80px;
 }
 .help-section-conainer {
   margin-bottom: 100px;
@@ -169,25 +167,25 @@ body {
 .help-section-box-one {
   display: block;
 }
+.help-section-box-one img {
+  width: 490px;
+  height: 465px;
+  object-fit: cover;
+}
 .help-section-box-two {
-  width: 300px;
-  height: 400px;
+  width: 460px;
+  height: 450px;
   background-color: rgb(235, 223, 223);
   padding: 15px 15px 0 15px;
-  text-align: left;
 }
 .help-section-box-two p {
-  padding-bottom: 40px;
+  padding-bottom: 90px;
   word-spacing: 2px;
   color: rgba(0, 0, 0, 0.678);
 }
-.help-section-box-one img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-}
+
 .help-button {
-  padding: 10px 20px;
+  padding: 20px 40px;
   background: orange;
   color: #fff;
   text-decoration: none;
