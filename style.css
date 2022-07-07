@@ -192,7 +192,8 @@ body {
   cursor: pointer;
 }
 .help-section {
-  display: inline;
+  box-sizing: border-box;
+  display: block;
 }
 .help-section-conainer {
   margin-bottom: 100px;
