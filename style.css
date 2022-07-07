@@ -144,6 +144,54 @@ body {
   width: 20%;
   padding-bottom: 30px;
 }
+
+.help-section {
+  box-sizing: border-box;
+  display: block;
+  height: 1400px;
+  height: 900x;
+  align-items: center;
+}
+.help-section-conainer {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.help-section-box {
+  display: inline-block;
+  justify-content: center;
+  margin: 30px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 6px -2px,
+    rgb(0 0 0 / 30%) 0px 3px 4px -3px;
+}
+.help-section-box-one {
+  display: block;
+}
+.help-section-box-two {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(235, 223, 223);
+  padding: 15px 15px 0 15px;
+  text-align: left;
+}
+.help-section-box-two p {
+  padding-bottom: 40px;
+  word-spacing: 2px;
+  color: rgba(0, 0, 0, 0.678);
+}
+.help-section-box-one img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+.help-button {
+  padding: 10px 20px;
+  background: orange;
+  color: #fff;
+  text-decoration: none;
+}
 .update-subscribe {
   margin-bottom: 60px;
   text-align: center;
@@ -191,51 +239,6 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
-.help-section {
-  box-sizing: border-box;
-  display: block;
-}
-.help-section-conainer {
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.help-section-box {
-  display: flex;
-  justify-content: center;
-  margin: 30px;
-  box-shadow: rgb(50 50 93 / 25%) 0px 6px 6px -2px,
-    rgb(0 0 0 / 30%) 0px 3px 4px -3px;
-}
-.help-section-box-one {
-  display: block;
-}
-.help-section-box-two {
-  width: 300px;
-  height: 400px;
-  background-color: rgb(235, 223, 223);
-  padding: 15px 15px 0 15px;
-  text-align: left;
-}
-.help-section-box-two p {
-  padding-bottom: 40px;
-  word-spacing: 2px;
-  color: rgba(0, 0, 0, 0.678);
-}
-.help-section-box-one img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-}
-.help-button {
-  padding: 10px 20px;
-  background: orange;
-  color: #fff;
-  text-decoration: none;
-}
-
 .footer {
   height: 200px;
   background: black;
